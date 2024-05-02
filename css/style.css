@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole css header */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* DEBUG */
+    background-color: aqua;
+    min-height: 50px;
+}
+    
+nav #logo{
+    /* DEBUG */
+    background-color: rgb(255, 145, 0);
+    width: 15%;
+    border: 1px solid black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    /* DEBUG */
+    background-color: rgb(255, 145, 0);
+    width: 40%;
+    border: 1px solid black;
+}
+
+nav #login{
+    /* DEBUG */
+    background-color: rgb(255, 145, 0);
+    width: 15%;
+    border: 1px solid black;
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* DEBUG */
+    background-color: blue;
+    min-height: 400px;
+}
+
+.header-section div{
+    /* DEBUG */
+    background-color: pink;
+    min-height: 300px;
+    min-width: 700px;
+}
