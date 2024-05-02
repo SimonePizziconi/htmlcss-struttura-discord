@@ -50,7 +50,59 @@ nav #login{
 
 .header-section div{
     /* DEBUG */
-    background-color: pink;
+    background-color: rgb(219, 54, 248);
     min-height: 300px;
     min-width: 700px;
 }
+
+/* regole css main */
+
+.white-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* DEBUG */
+    background-color: white;
+    min-height: 500px;
+}
+
+.gray-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* DEBUG */
+    background-color: gray;
+    min-height: 500px;
+}
+
+.blue{
+    /* DEBUG */
+    background-color: rgb(73, 135, 216);
+    min-height: 400px;
+    min-width: 40%;
+}
+
+.pink{
+    /* DEBUG */
+    background-color: pink;
+    min-height: 400px;
+    min-width: 30%;
+}
+
+.green-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* DEBUG */
+    background-color: grey;
+    min-height: 800px;
+}
+
+.green{
+    /* DEBUG */
+    background-color: green;
+    min-height: 700px;
+    min-width: 70%;
+}
+
+
