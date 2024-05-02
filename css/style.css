@@ -6,7 +6,7 @@
 
 /* regole css header */
 
-nav {
+header nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,11 +15,12 @@ nav {
     min-height: 50px;
 }
     
-nav #logo{
+.header-nav{
+    display: flex;
+    justify-content: space-between;
     /* DEBUG */
-    background-color: rgb(255, 145, 0);
-    width: 15%;
-    border: 1px solid black;
+    min-width: 70%;
+    background-color: orange;
 }
 
 nav ul {
@@ -27,17 +28,10 @@ nav ul {
     justify-content: space-around;
     list-style-type: none;
     /* DEBUG */
-    background-color: rgb(255, 145, 0);
     width: 40%;
     border: 1px solid black;
 }
 
-nav #login{
-    /* DEBUG */
-    background-color: rgb(255, 145, 0);
-    width: 15%;
-    border: 1px solid black;
-}
 
 .header-section{
     display: flex;
@@ -105,4 +99,57 @@ nav #login{
     min-width: 70%;
 }
 
+/* css del footer */
+
+.footer-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-bottom: 2px solid gray;
+    /* DEBUG */
+    background-color: black;
+    height: 500px;
+}
+
+.col{
+    /* DEBUG */
+    min-height: 400px;
+    min-width: 12%;
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.col-pink{
+    /* DEBUG */
+    margin-top: 10px;
+    min-height: 400px;
+    min-width: 22%;
+    background-color: rgb(255, 127, 244);
+    border: 1px solid black;
+}
+
+footer nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* DEBUG */
+    background-color: black;
+    height: 100px;
+}
+
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* DEBUG */
+    background-color: aqua;
+    min-height: 50px;
+    min-width: 70%;
+}
+
+.footer-logo, .footer-button{
+    /* DEBUG */
+    background-color: pink;
+}
 
